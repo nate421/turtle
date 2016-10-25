@@ -8,7 +8,7 @@ def draw_square():
     time.sleep(5)
 
     brad = turtle.Turtle()
-    brad.shape("turtle")
+    brad.shape("triangle")
     brad.color("purple")
     brad.speed(1)
     
@@ -20,7 +20,11 @@ def draw_square():
     brad.right(90)
     brad.forward(100)
 
-    
+    peter = turtle.Turtle()
+    peter.speed(1)
+    peter.shape("classic")
+    peter.color("green")
+    peter.circle(100)
     
 
     window.exitonclick()
