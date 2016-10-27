@@ -22,9 +22,9 @@ def draw_square():
 
     peter = turtle.Turtle()
     peter.speed(1)
-    peter.shape("classic")
+    peter.shape("circle")
     peter.color("green")
-    peter.circle(100)
+    peter.circle(150)
     
 
     window.exitonclick()
