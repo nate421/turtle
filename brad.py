@@ -1,9 +1,14 @@
 import turtle
 import time
 
-def draw_square():
+def draw_square(some_turtle):
+    for i  in range(1,5):
+        some_turtle.forward(100)
+        some_turtle.right(90)
+
+def draw_art():
     window = turtle.Screen()
-    window.bgcolor("red")
+    window.bgcolor("blue")
 
     time.sleep(5)
 
